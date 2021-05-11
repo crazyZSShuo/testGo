@@ -15,7 +15,7 @@ func numbers() {
 func alphabets() {
 	for i := 'a'; i <= 'e'; i++ {
 		time.Sleep(400 * time.Millisecond)
-		fmt.Printf("%C ", i)
+		fmt.Printf("%c ", i)
 	}
 }
 
